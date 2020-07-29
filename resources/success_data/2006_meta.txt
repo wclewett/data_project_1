@@ -1,0 +1,199 @@
+NCES Common Core of Data State Dropout and Completion Data File: School Year 2005-06
+
+FILE NAME = sdr051b.dat, 2005-06 
+
+NVAR = 183
+
+NOBS = 59
+
+LRECL = 1,556
+
+
+The file contains data for school year 2005–06 sorted by the Federal Information Processing Standards (FIPS) state code. “AN” and “N” indicate alphanumeric and numeric data, respectively. An asterisk (*) in the field length column indicates that the field has one explicit decimal place.
+
+Variable 	Start  	  End	        Field   Data	Description
+Name	 	Position  Position	Length	Type    
+
+SURVYEAR 	0001	  0004		4	N	School year. 
+FIPST		0005	  0006		2	AN	Federal Information Processing Standards (FIPS) state code.
+STABR		0007	  0008		2	AN	Two-letter U.S. Postal Service abbreviation for the state.
+SEANAME		0009	  0068		60	AN	Name of the state education agency.
+STREET		0069	  0098		30	AN	Mailing address of the agency—may be a street address or a P.O. Box number. 
+CITY		0099	  0128		30	AN	Name of the mailing address city.
+STNAME		0129	  0153		25	AN	Name of the mailing address state.
+ZIP		0154	  0158		5	AN	Five-digit U.S. Postal Service ZIP code for the mailing address.
+ZIP4 		0159	  0162		4	AN	Four-digit ZIP+4 code, if assigned; if none, field is blank.
+PHONE 		0163	  0172		10	AN	Telephone number of education agency. NOTE: Position #163–165 is the area code, and position #166–172 							is the exchange and number.
+AFGR		0173	  0180		8*	N	Averaged Freshman Graduation Rate (AFGR).
+AMAFGR		0181	  0188		8*	N	AFGR (American Indian/Alaska Native).
+ASAFGR		0189	  0196		8*	N	AFGR (Asian/Pacific Islander).
+HIAFGR		0197	  0204		8*	N	AFGR (Hispanic).
+BLAFGR		0205	  0212		8*	N	AFGR (Black, non-Hispanic).
+WHAFGR		0213	  0220		8*	N	AFGR (White, non-Hispanic).
+REGDIP		0221	  0228		8	N	Regular diploma count.
+AMREGDIP	0229	  0236		8	N	Regular diploma count (American Indian/Alaskan Native).
+ASREGDIP	0237	  0244		8	N	Regular diploma count (Asian/Pacific Islander).
+HIREGDIP	0245	  0252		8	N	Regular diploma count (Hispanic).
+BLREGDIP	0253	  0260		8	N	Regular diploma count (Black, non-Hispanic).
+WHREGDIP	0261	  0268		8	N	Regular diploma count (White, non-Hispanic).
+AFGRBASE	0269	  0276		8	N	Enrollment base AFGR.
+AMAFGRBASE	0277	  0284		8	N	Enrollment base AFGR (American Indian/Alaska Native).
+ASAFGRBASE	0285	  0292		8	N	Enrollment base AFGR (Asian/Pacific Islander).
+HIAFGRBASE	0293	  0300		8	N	Enrollment base AFGR (Hispanic).
+BLAFGRBASE	0301	  0308		8	N	Enrollment base AFGR (Black, non-Hispanic).
+WHAFGRBASE	0309	  0316		8	N	Enrollment base AFGR (White, non-Hispanic).
+TOTD912		0317	  0324		8	N	Count of dropouts (Grades 9–12) aggregated from the local education agency universe file (see 									appendix D for computation procedures).
+TOTD9		0325	  0332		8	N	Count of dropouts (Total 9th grade) aggregated from the local education agency universe file (see 								for computation procedures).
+AMD9M		0333	  0340		8	N	Count of dropouts (9th-grade American Indian/Alaska Native-Male) aggregated from the local education 								agency universe file (see appendix D for computation procedures).
+AMD9F		0341	  0348		8	N	Count of dropouts (9th-grade American Indian/Alaska Native-Female) aggregated from the local 									universe file (see appendix D for computation procedures).
+AMD9U 		0349	  0356		8	N	Count of dropouts (9th-grade American Indian/Alaska Native-Gender Unknown) aggregated from the local 								education agency universe file (see appendix D for computation procedures).
+ASD9M		0357	  0364		8	N	Count of dropouts (9th-grade Asian/Pacific Islander-Male) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+ASD9F		0365	  0372		8	N	Count of dropouts (9th-grade Asian/Pacific Islander-Female) aggregated from the local education 								universe file (see appendix D for computation procedures).
+ASD9U		0373	  0380		8	N	Count of dropouts (9th-grade Asian/Pacific Islander-Gender Unknown) aggregated from the local agency 								universe file (see appendix D for computation procedures).
+HID9M		0381	  0388		8	N	Count of dropouts (9th-grade Hispanic-Male) aggregated from the local education agency universe file 								(see appendix D for computation procedures).
+HID9F		0389	  0396		8	N	Count of dropouts (9th-grade Hispanic-Female) aggregated from the local education agency universe 								file (see appendix D for computation procedures).
+HID9U		0397	  0404		8	N	Count of dropouts (9th-grade Hispanic-Gender Unknown) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+BLD9M		0405	  0412		8	N	Count of dropouts (9th-grade Black, non-Hispanic-Male) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+BLD9F		0413	  0420		8	N	Count of dropouts (9th-grade Black, non-Hispanic-Female) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+BLD9U 		0421	  0428		8	N	Count of dropouts (9th-grade Black, non-Hispanic-Gender Unknown) aggregated from the local education 								agency universe file (see appendix D for computation procedures).
+WHD9M		0429	  0436		8	N	Count of dropouts (9th-grade White, non-Hispanic-Male) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+WHD9F		0437	  0444		8	N	Count of dropouts (9th-grade White, non-Hispanic-Female) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+WHD9U		0445	  0452		8	N	Count of dropouts (9th-grade White, non-Hispanic-Gender Unknown) aggregated from the local education 								agency universe file (see appendix D for computation procedures).
+TOTD10 		0453	  0460		8	N	Count of dropouts (Total 10th Grade) aggregated from the local education agency universe file (see 								appendix D for computation procedures).
+AMD10M		0461	  0468		8	N	Count of dropouts (10th-grade American Indian/Alaska Native-Male) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+AMD10F		0469	  0476		8	N	Count of dropouts (10th-grade American Indian/Alaska Native-Female) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+AMD10U		0477	  0484		8	N	Count of dropouts (10th-grade American Indian/Alaska Native-Gender Unknown) aggregated from the 								local education agency universe file (see appendix D for computation procedures).
+ASD10M		0485	  0492		8	N	Count of dropouts (10th-grade Asian/Pacific Islander-Male) aggregated from the local education 									agency universe file (see appendix D for computation procedures).
+ASD10F		0493	  0500		8	N	Count of dropouts (10th-grade Asian/Pacific Islander-Female) aggregated from the local education 								agency universe file (see appendix D for computation procedures).
+ASD10U		0501	  0508		8	N	Count of dropouts (10th-grade Asian/Pacific Islander-Gender Unknown) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+HID10M		0509	  0516		8	N	Count of dropouts (10th-grade Hispanic-Male) aggregated from the school universe file (see appendix 								D for computation procedures).
+HID10F		0517	  0524		8	N	Count of dropouts (10th-grade Hispanic-Female) aggregated from the school universe file (see 									appendix D for computation procedures).
+HID10U		0525	  0532		8	N	Count of dropouts (10th-grade Hispanic-Gender Unknown) aggregated from the school universe file (see 								appendix D for computation procedures).
+BLD10M		0533	  0540		8	N	Count of dropouts (10th-grade Black, non-Hispanic-Male) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+BLD10F		0541	  0548		8	N	Count of dropouts (10th-grade Black, non-Hispanic-Female) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+BLD10U		0549	  0556		8	N	Count of dropouts (10th-grade Black, non-Hispanic-Gender Unknown) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+WHD10M		0557	  0564		8	N	Count of dropouts (10th-grade White, non-Hispanic-Male) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+WHD10F		0565	  0572		8	N	Count of dropouts (10th-grade White, non-Hispanic-Female) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+WHD10U		0573	  0580		8	N	Count of dropouts (10th-grade White, non-Hispanic-Gender Unknown) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+TOTD11		0581	  0588		8	N	Count of dropouts (Total 11th Grade) aggregated from the school universe file (see appendix D for 								computation procedures).
+AMD11M		0589	  0596		8	N	Count of dropouts (11th-grade American Indian/Alaska Native-Male) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+AMD11F		0597	  0604		8	N	Count of dropouts (11th-grade American Indian/Alaska Native-Female) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+AMD11U		0605	  0612		8	N	Count of dropouts (11th-grade American Indian/Alaska Native-Gender Unknown) aggregated from the 								local education agency universe file (see appendix D for computation procedures).
+ASD11M		0613	  0620		8	N	Count of dropouts (11th-grade Asian/Pacific Islander-Male) aggregated from the local education 									agency universe file (see appendix D for computation procedures).
+ASD11F		0621	  0628		8	N	Count of dropouts (11th-grade Asian/Pacific Islander-Female) aggregated from the local education 								agency universe file (see appendix D for computation procedures).
+ASD11U		0629	  0636		8	N	Count of dropouts (11th-grade Asian/Pacific Islander-Gender Unknown) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+HID11M		0637	  0644		8	N	Count of dropouts (11th-grade Hispanic-Male) aggregated from the local education agency universe 								file (see appendix D for computation procedures).
+HID11F		0645	  0652		8	N	Count of dropouts (11th-grade Hispanic-Female) aggregated from the local education agency universe 								file (see appendix D for computation procedures).
+HID11U		0653	  0660		8	N	Count of dropouts (11th-grade Hispanic-Gender Unknown) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+BLD11M		0661	  0668		8	N	Count of dropouts (11th-grade Black, non-Hispanic-Male) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+BLD11F		0669	  0676		8	N	Count of dropouts (11th-grade Black, non-Hispanic-Female) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+BLD11U		0677	  0684		8	N	Count of dropouts (11th-grade Black, non-Hispanic-Gender Unknown) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+WHD11M		0685	  0692		8	N	Count of dropouts (11th-grade White, non-Hispanic-Male) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+WHD11F		0693	  0700		8	N	Count of dropouts (11th-grade White, non-Hispanic-Female) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+WHD11U		0701	  0708		8	N	Count of dropouts (11th-grade White, non-Hispanic-Gender Unknown) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+TOTD12		0709	  0716		8	N	Count of dropouts (Total 12th Grade) aggregated from the local education agency universe file (see 								appendix D for computation procedures).
+AMD12M		0717	  0724		8	N	Count of dropouts (12th-grade American Indian/Alaska Native-Male) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+AMD12F		0725	  0732		8	N	Count of dropouts (12th-grade American Indian/Alaska Native-Female) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+AMD12U		0733	  0740		8	N	Count of dropouts (12th-grade American Indian/Alaska Native-Gender Unknown) aggregated from the 								local education agency universe file (see appendix D for computation procedures).
+ASD12M		0741	  0748		8	N	Count of dropouts (12th-grade Asian/Pacific Islander-Male) aggregated from the local education 									agency universe file (see appendix D for computation procedures).
+ASD12F		0749	  0756		8	N	Count of dropouts (12th-grade Asian/Pacific Islander-Female) aggregated from the local education 								agency universe file (see appendix D for computation procedures).
+ASD12U		0757	  0764		8	N	Count of dropouts (12th-grade Asian/Pacific Islander-Gender Unknown) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+HID12M		0765	  0772		8	N	Count of dropouts (12th-grade Hispanic-Male) aggregated from the local education agency universe 								file (see appendix D for computation procedures).
+HID12F		0773	  0780		8	N	Count of dropouts (12th-grade Hispanic-Female) aggregated from the local education agency universe 								file (see appendix D for computation procedures).
+HID12U		0781	  0788		8	N	Count of dropouts (12th-grade Hispanic-Gender Unknown) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+BLD12M		0789	  0796		8	N	Count of dropouts (12th-grade Black, non-Hispanic-Male) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+BLD12F		0797	  0804		8	N	Count of dropouts (12th-grade Black, non-Hispanic-Female) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+BLD12U		0805	  0812		8	N	Count of dropouts (12th-grade Black, non-Hispanic-Gender Unknown) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+WHD12M		0813	  0820		8	N	Count of dropouts (12th-grade White, non-Hispanic-Male) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+WHD12F		0821	  0828		8	N	Count of dropouts (12th-grade White, non-Hispanic-Female) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
+WHD12U		0829	  0836		8	N	Count of dropouts (12th-grade White, non-Hispanic-Gender Unknown) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
+DRP912		0837	  0844		8*	N	Dropout Rate (Grades 9–12).
+DRP9		0845	  0860		8*	N	Dropout Rate (Grade 9).
+DRP10		0853	  0860		8*	N 	Dropout Rate (Grade 10).
+DRP11		0861	  0868		8*	N	Dropout Rate (Grade 11).
+DRP12		0869	  0876		8*	N	Dropout Rate (Grade 12).
+DRPAM		0877	  0884		8*	N	Dropout Rate (American Indian/Alaska Native, Grades 9–12).
+DRPAS		0885	  0892		8*	N	Dropout Rate (Asian/Pacific Islander, Grades 9–12).
+DRPHI		0893	  0900		8*	N	Dropout Rate (Hispanic, Grades 9–12).
+DRPBL		0901	  0908		8*	N	Dropout Rate (Black, non-Hispanic, Grades 9–12).
+DRPWH		0909	  0916		8*	N	Dropout Rate (White, non-Hispanic, Grades 9–12).
+DRPM		0917	  0924		8*	N	Dropout Rate (Male, Grades 9–12).
+DRPF		0925	  0932		8*	N	Dropout Rate (Female, Grades 9 –12).
+DRPU		0933	  0940		8*	N	Dropout Rate (Gender Unknown, Grades 9–12).
+EBS912		0941	  0948		8	N	Enrollment Base (Grades 9–12) aggregated from the school universe file (see appendix D for 									computation procedures).
+EBS9		0949	  0956		8	N	Enrollment Base (Total 9th Grade) aggregated from the school universe file (see appendix D for 									computation procedures).
+EBSAM9M		0957	  0964		8	N	Enrollment Base (9th-grade American Indian/Alaska Native-Male) aggregated from the school universe 								file (see appendix D for computation procedures).
+EBSAM9F		0965	  0972		8	N	Enrollment Base (9th-grade American Indian/Alaska Native-Female) aggregated from the school universe 								file (see appendix D for computation procedures).
+EBSAM9U		0973	  0980		8	N	Enrollment Base (9th-grade American Indian/Alaska Native-Gender Unknown) aggregated from the school 								universe file (see appendix D for computation procedures).
+EBSAS9M		0981	  0988		8	N	Enrollment Base (9th-grade Asian/Pacific Islander-Male) aggregated from the school universe file 								(see appendix D for computation procedures).
+EBSAS9F		0989	  0996		8	N	Enrollment Base (9th-grade Asian/Pacific Islander-Female) aggregated from the school universe file 								(see appendix D for computation procedures).
+EBSAS9U		0997	  1004		8	N	Enrollment Base (9th-grade Asian/Pacific Islander-Gender Unknown) aggregated from the school 									universe file (see appendix D for computation procedures).
+EBSHI9M		1005	  1012		8	N	Enrollment Base (9th-grade Hispanic-Male) aggregated from the school universe file (see appendix D 								for computation procedures).
+EBSHI9F		1013	  1020		8	N	Enrollment Base (9th-grade Hispanic-Female) aggregated from the school universe file (see appendix D 								for computation procedures).
+EBSHI9U		1021	  1028		8	N	Enrollment Base (9th-grade Hispanic-Gender Unknown) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSBL9M		1029	  1036		8	N	Enrollment Base (9th-grade Black, non-Hispanic-Male) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSBL9F		1037	  1044		8	N	Enrollment Base (9th-grade Black, non-Hispanic-Female) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSBL9U		1045	  1052		8	N	Enrollment Base (9th-grade Black, non-Hispanic-Gender Unknown) aggregated from the school universe 								file (see appendix D for computation procedures).
+EBSWH9M		1053	  1060		8	N	Enrollment Base (9th-grade White, non-Hispanic-Male) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSWH9F		1061	  1068		8	N	Enrollment Base (9th-grade White, non-Hispanic-Female) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSWH9U		1069	  1076		8	N	Enrollment Base (9th-grade White, non-Hispanic-Gender Unknown) aggregated from the school universe 								file (see appendix D for computation procedures).
+EBS10		1077	  1084		8	N	Enrollment Base (Total 10th Grade) aggregated from the school universe file (see appendix D for 								computation procedures).
+EBSAM10M	1085	  1092		8	N	Enrollment Base (10th-grade American Indian/Alaska Native-Male) aggregated from the school universe 								file (see appendix D for computation procedures).
+EBSAM10F	1093	  1100		8	N	Enrollment Base (10th-grade American Indian/Alaska Native-Female) aggregated from the school 									universe file (see appendix D for computation procedures).
+EBSAM10U	1101	  1108		8	N	Enrollment Base (10th-grade American Indian/Alaska Native-Gender Unknown) aggregated from the school 								universe file (see appendix D for computation procedures).
+EBSAS10M	1109	  1116		8	N	Enrollment Base (10th-grade Asian/Pacific Islander-Male) aggregated from the school universe file 								(see appendix D for computation procedures).
+EBSAS10F	1117	  1124		8	N	Enrollment Base (10th-grade Asian/Pacific Islander-Female) aggregated from the school universe file 								(see appendix D for computation procedures).
+EBSAS10U	1125	  1132		8	N	Enrollment Base (10th-grade Asian/Pacific Islander-Gender Unknown) aggregated from the school 									universe file (see appendix D for computation procedures).
+EBSHI10M	1133	  1140		8	N	Enrollment Base (10th-grade Hispanic-Male) aggregated from the school universe file (see appendix D 								for computation procedures).
+EBSHI10F	1141	  1148		8	N	Enrollment Base (10th-grade Hispanic-Female) aggregated from the school universe file (see appendix 								D for computation procedures).
+EBSHI10U	1149	  1156		8	N	Enrollment Base (10th-grade Hispanic-Gender Unknown) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSBL10M	1157	  1164		8	N	Enrollment Base (10th-grade Black, non-Hispanic-Male) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSBL10F	1165	  1172		8	N	Enrollment Base (10th-grade Black, non-Hispanic-Female) aggregated from the school universe file (see 							appendix D for computation procedures).
+EBSBL10U	1173	  1180		8	N	Enrollment Base (10th-grade Black, non-Hispanic-Gender Unknown) aggregated from the school universe 								file (see appendix D for computation procedures).
+EBSWH10M	1181	  1188		8	N	Enrollment Base (10th-grade White, non-Hispanic-Male) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSWH10F	1189	  1196		8	N	Enrollment Base (10th-grade White, non-Hispanic-Female) aggregated from the school universe file (see 							appendix D for computation procedures).
+EBSWH10U	1197	  1204		8	N	Enrollment Base (10th-grade White, non-Hispanic-Gender Unknown) aggregated from the school universe 								file (see appendix D for computation procedures).
+EBS11		1205	  1212		8	N	Enrollment Base (Total 11th Grade) aggregated from the school universe file (see appendix D for 								computation procedures).
+EBSAM11M	1213	  1220		8	N	Enrollment Base (11th-grade American Indian/Alaska Native-Male) aggregated from the school universe 								file (see appendix D for computation procedures).
+EBSAM11F	1221	  1228		8	N	Enrollment Base (11th-grade American Indian/Alaska Native-Female) aggregated from the school universe 							file (see appendix D for computation procedures).
+EBSAM11U	1229	  1236		8	N	Enrollment Base (11th-grade American Indian/Alaska Native-Gender Unknown) aggregated from the school 								universe file (see appendix D for computation procedures).
+EBSAS11M	1237	  1244		8	N	Enrollment Base (11th-grade Asian/Pacific Islander-Male) aggregated from the school universe file 								(see appendix D for computation procedures).
+EBSAS11F	1245	  1252		8	N	Enrollment Base (11th-grade Asian/Pacific Islander-Female) aggregated from the school universe file 								(see appendix D for computation procedures).
+EBSAS11U	1253	  1260		8	N	Enrollment Base (11th-grade Asian/Pacific Islander-Gender Unknown) aggregated from the school 									universe file (see appendix D for computation procedures).
+EBSHI11M	1261	  1268		8	N	Enrollment Base (11th-grade Hispanic-Male) aggregated from the school universe file (see appendix D 								for computation procedures).
+EBSHI11F	1269	  1276		8	N	Enrollment Base (11th-grade Hispanic-Female) aggregated from the school universe file (see appendix D 							for computation procedures).
+EBSHI11U	1277	  1284		8	N	Enrollment Base (11th-grade Hispanic-Gender Unknown) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSBL11M	1285	  1292		8	N	Enrollment Base (11th-grade Black, non-Hispanic-Male) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSBL11F	1293	  1300		8	N	Enrollment Base (11th-grade Black, non-Hispanic-Female) aggregated from the school universe file (see 							appendix D for computation procedures).
+EBSBL11U	1301	  1308		8	N	Enrollment Base (11th-grade Black, non-Hispanic-Gender Unknown) aggregated from the school universe 								file (see appendix D for computation procedures).
+EBSWH11M	1309	  1316		8	N	Enrollment Base (11th-grade White, non-Hispanic-Male) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSWH11F	1317	  1324		8	N	Enrollment Base (11th-grade White, non-Hispanic-Female) aggregated from the school universe file (see 							appendix D for computation procedures).
+EBSWH11U	1325	  1332		8	N	Enrollment Base (11th-grade White, non-Hispanic-Gender Unknown) aggregated from the school universe 								file (see appendix D for computation procedures).
+EBS12		1333	  1340		8	N	Enrollment Base (Total 12th Grade) aggregated from the school universe file (see appendix D for 								computation procedures).
+EBSAM12M	1341	  1348		8	N	Enrollment Base (12th-grade American Indian/Alaska Native-Male) aggregated from the school universe 								file (see appendix D for computation procedures).
+EBSAM12F	1349	  1356		8	N	Enrollment Base (12th-grade American Indian/Alaska Native-Female) aggregated from the school universe 							file (see appendix D for computation procedures).
+EBSAM12U	1357	  1364		8	N	Enrollment Base (12th-grade American Indian/Alaska Native-Gender Unknown) aggregated from the school 								universe file (see appendix D for computation procedures).
+EBSAS12M	1365	  1372		8	N	Enrollment Base (12th-grade Asian/Pacific Islander-Male) aggregated from the school universe file 								(see appendix D for computation procedures).
+EBSAS12F	1373	  1380		8	N	Enrollment Base (12th-grade Asian/Pacific Islander-Female) aggregated from the school universe file 								(see appendix D for computation procedures).
+EBSAS12U	1381	  1388		8	N	Enrollment Base (12th-grade Asian/Pacific Islander-Gender Unknown) aggregated from the school 									universe file (see appendix D for computation procedures).
+EBSHI12M	1389	  1396		8	N	Enrollment Base (12th-grade Hispanic-Male) aggregated from the school universe file (see appendix D 								for computation procedures).
+EBSHI12F	1397	  1404		8	N	Enrollment Base (12th-grade Hispanic-Female) aggregated from the school universe file (see appendix D 							for computation procedures).
+EBSHI12U	1405	  1412		8	N	Enrollment Base (12th-grade Hispanic-Gender Unknown) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSBL12M	1413	  1420		8	N	Enrollment Base (12th-grade Black, non-Hispanic-Male) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSBL12F	1421	  1428		8	N	Enrollment Base (12th-grade Black, non-Hispanic-Female) aggregated from the school universe file (see 							appendix D for computation procedures).
+EBSBL12U	1429	  1436		8	N	Enrollment Base (12th-grade Black, non-Hispanic-Gender Unknown) aggregated from the school universe 								file (see appendix D for computation procedures).
+EBSWH12M	1437	  1444		8	N	Enrollment Base (12th-grade White, non-Hispanic-Male) aggregated from the school universe file (see 								appendix D for computation procedures).
+EBSWH12F	1445	  1452		8	N	Enrollment Base (12th-grade White, non-Hispanic-Female) aggregated from the school universe file (see 							appendix D for computation procedures).
+EBSWH12U	1453	  1460		8	N	Enrollment Base (12th-grade White, non-Hispanic-Gender Unknown) aggregated from the school universe 								file (see appendix D for computation procedures).
+OTHCOM		1461	  1468		8	N	Other high school completer count.
+AMOHC		1469	  1476		8	N	Other high school completer count (American Indian/Alaskan Native).
+ASOHC		1477	  1484		8	N	Other high school completer count (Asian/Pacific Islander).
+HIOHC		1485      1492		8	N	Other high school completer count (Hispanic).
+BLOHC		1493	  1500		8	N	Other high school completer count (Black, non-Hispanic).
+WHOHC		1501	  1508		8	N	Other high school completer count (White, non-Hispanic).
+EQUIV		1509	  1516		8	N	Count of individuals age 19 or younger who passed the General Educational Development (GED) test.
+AMEQUIV		1517	  1524		8	N	Count of individuals age 19 or younger who passed the GED (American Indian/Alaska Native).
+ASEQUIV		1525	  1532		8	N  	Count of individuals age 19 or younger who passed the GED (Asian/Pacific Islander).
+HIEQUIV		1533	  1540		8	N	Count of individuals age 19 or younger who passed the GED (Hispanic).
+BLEQUIV		1541	  1548		8	N	Count of individuals age 19 or younger who passed the GED (Black, non-Hispanic).
+WHEQUIV		1549	  1556		8	N	Count of individuals age 19 or younger who passed the GED (White, non-Hispanic).

@@ -1,0 +1,234 @@
+NCES Common Core of Data State Dropout and Completion Data File: School Year 2007-08
+
+FILE NAME = sdr071b.txt, 2007-08 
+
+NVAR = 219
+
+NOBS = 59
+
+The file contains data for school year 2007–08 sorted by the Federal Information Processing Standards (FIPS) state code. 
+“AN” and “N” indicate alphanumeric and numeric data, respectively. Data presented in this release are available in two formats—
+SAS datasets (.sas7bdat) and tab-separated values text files (.txt). An asterisk (*) in the order column indicates that the field 
+has one explicit decimal place.
+
+
+Variable name		Order		Data type	Description
+SURVYEAR		1		AN		Year Corresponding to Survey Record
+FIPST			2		AN		Two Digit State FIPS Code
+STATENAME		3		AN		State Name
+TOTD9			4		N		Total Dropouts, Grade 9
+AMD9M			5		N		Dropouts, American Indian/Alaskan Native, Grade 9, Male
+AMD9F			6		N		Dropouts, American Indian/Alaskan Native, Grade 9, Female
+AMD9			7		N		Dropouts, American Indian/Alaskan Native, Grade 9
+ASD9M			8		N		Dropouts, Asian/Pacific Islander, Grade 9, Male
+ASD9F			9		N		Dropouts, Asian/Pacific Islander, Grade 9, Female
+ASD9			10		N		Dropouts, Asian/Pacific Islander, Grade 9
+HID9M			11		N		Dropouts, Hispanic, Grade 9, Male
+HID9F			12		N		Dropouts, Hispanic, Grade 9, Female
+HID9			13		N		Dropouts, Hispanic, Grade 9
+BLD9M			14		N		Dropouts, Black, non-Hispanic, Grade 9, Male
+BLD9F			15		N		Dropouts, Black, non-Hispanic, Grade 9, Female
+BLD9			16		N		Dropouts, Black, non-Hispanic, Grade 9
+WHD9M			17		N		Dropouts, White, non-Hispanic, Grade 9, Male
+WHD9F			18		N		Dropouts, White, non-Hispanic, Grade 9, Female
+WHD9			19		N		Dropouts, White, non-Hispanic, Grade 9
+TOTD10			20		N		Total Dropouts, Grade 10
+AMD10M			21		N		Dropouts, American Indian/Alaskan Native, Grade 10, Male
+AMD10F			22		N		Dropouts, American Indian/Alaskan Native, Grade 10, Female
+AMD10			23		N		Dropouts, American Indian/Alaskan Native, Grade 10
+ASD10M			24		N		Dropouts, Asian/Pacific Islander, Grade 10, Male
+ASD10F			25		N		Dropouts, Asian/Pacific Islander, Grade 10, Female
+ASD10			26		N		Dropouts, Asian/Pacific Islander, Grade 10
+HID10M			27		N		Dropouts, Hispanic, Grade 10, Male
+HID10F			28		N		Dropouts, Hispanic, Grade 10, Female
+HID10			29		N		Dropouts, Hispanic, Grade 10
+BLD10M			30		N		Dropouts, Black, non-Hispanic, Grade 10, Male
+BLD10F			31		N		Dropouts, Black, non-Hispanic, Grade 10, Female
+BLD10			32		N		Dropouts, Black, non-Hispanic, Grade 10
+WHD10M			33		N		Dropouts, White, non-Hispanic, Grade 10, Male
+WHD10F			34		N		Dropouts, White, non-Hispanic, Grade 10, Female
+WHD10			35		N		Dropouts, White, non-Hispanic, Grade 10
+TOTD11			36		N		Total Dropouts, Grade 11
+AMD11M			37		N		Dropouts, American Indian/Alaskan Native, Grade 11, Male
+AMD11F			38		N		Dropouts, American Indian/Alaskan Native, Grade 11, Female
+AMD11			39		N		Dropouts, American Indian/Alaskan Native, Grade 11
+ASD11M			40		N		Dropouts, Asian/Pacific Islander, Grade 11, Male
+ASD11F			41		N		Dropouts, Asian/Pacific Islander, Grade 11, Female
+ASD11			42		N		Dropouts, Asian/Pacific Islander, Grade 11
+HID11M			43		N		Dropouts, Hispanic, Grade 11, Male
+HID11F			44		N		Dropouts, Hispanic, Grade 11, Female
+HID11			45		N		Dropouts, Hispanic, Grade 11
+BLD11M			46		N		Dropouts, Black, non-Hispanic, Grade 11, Male
+BLD11F			47		N		Dropouts, Black, non-Hispanic, Grade 11, Female
+BLD11			48		N		Dropouts, Black, non-Hispanic, Grade 11
+WHD11M			49		N		Dropouts, White, non-Hispanic, Grade 11, Male
+WHD11F			50		N		Dropouts, White, non-Hispanic, Grade 11, Female
+WHD11			51		N		Dropouts, White, non-Hispanic, Grade 11
+TOTD12			52		N		Total Dropouts, Grade 12
+AMD12M			53		N		Dropouts, American Indian/Alaskan Native, Grade 12, Male
+AMD12F			54		N		Dropouts, American Indian/Alaskan Native, Grade 12, Female
+AMD12			55		N		Dropouts, American Indian/Alaskan Native, Grade 12
+ASD12M			56		N		Dropouts, Asian/Pacific Islander, Grade 12, Male
+ASD12F			57		N		Dropouts, Asian/Pacific Islander, Grade 12, Female
+ASD12			58		N		Dropouts, Asian/Pacific Islander, Grade 12
+HID12M			59		N		Dropouts, Hispanic, Grade 12, Male
+HID12F			60		N		Dropouts, Hispanic, Grade 12, Female
+HID12			61		N		Dropouts, Hispanic, Grade 12
+BLD12M			62		N		Dropouts, Black, non-Hispanic, Grade 12, Male
+BLD12F			63		N		Dropouts, Black, non-Hispanic, Grade 12, Female
+BLD12			64		N		Dropouts, Black, non-Hispanic, Grade 12
+WHD12M			65		N		Dropouts, White, non-Hispanic, Grade 12, Male
+WHD12F			66		N		Dropouts, White, non-Hispanic, Grade 12, Female
+WHD12			67		N		Dropouts, White, non-Hispanic, Grade 12
+TOTD912			68		N		Total Dropouts, Grades 9 through 12
+TOTDAMM			69		N		Dropouts, Grades 9 through 12, American Indian/Alaskan Native, Male
+TOTDAMF			70		N		Dropouts, Grades 9 through 12, American Indian/Alaskan Native, Female
+TOTDAM			71		N		Dropouts, Grades 9 through 12, American Indian/Alaskan Native
+TOTDASM			72		N		Dropouts, Grades 9 through 12, Asian/Pacific Islander, Male
+TOTDASF			73		N		Dropouts, Grades 9 through 12, Asian/Pacific Islander, Female
+TOTDAS			74		N		Dropouts, Grades 9 through 12, Asian/Pacific Islander
+TOTDHIM			75		N		Dropouts, Grades 9 through 12, Hispanic, Male
+TOTDHIF			76		N		Dropouts, Grades 9 through 12, Hispanic, Female
+TOTDHI			77		N		Dropouts, Grades 9 through 12, Hispanic
+TOTDBLM			78		N		Dropouts, Grades 9 through 12, Black, non-Hispanic, Male
+TOTDBLF			79		N		Dropouts, Grades 9 through 12, Black, non-Hispanic, Female
+TOTDBL			80		N		Dropouts, Grades 9 through 12, Black, non-Hispanic
+TOTDWHM			81		N		Dropouts, Grades 9 through 12, White, non-Hispanic, Male
+TOTDWHF			82		N		Dropouts, Grades 9 through 12, White, non-Hispanic, Female
+TOTDWH			83		N		Dropouts, Grades 9 through 12, White, non-Hispanic
+TOTDM			84		N		Dropouts, Grades 9 through 12, Male
+TOTDF			85		N		Dropouts, Grades 9 through 12, Female
+G9			86		N		Enrollment, Grade 9
+AM9M			87		N		Enrollment, American Indian/Alaskan Native, Grade 9, Male
+AM9F			88		N		Enrollment, American Indian/Alaskan Native, Grade 9, Female
+AM9			89		N		Enrollment, American Indian/Alaskan Native, Grade 9
+AS9M			90		N		Enrollment, Asian/Pacific Islander, Grade 9, Male
+AS9F			91		N		Enrollment, Asian/Pacific Islander, Grade 9, Female
+AS9			92		N		Enrollment, Asian/Pacific Islander, Grade 9
+HI9M			93		N		Enrollment, Hispanic, Grade 9, Male
+HI9F			94		N		Enrollment, Hispanic, Grade 9, Female
+HI9			95		N		Enrollment, Hispanic, Grade 9
+BL9M			96		N		Enrollment, Black, non-Hispanic, Grade 9, Male
+BL9F			97		N		Enrollment, Black, non-Hispanic, Grade 9, Female
+BL9			98		N		Enrollment, Black, non-Hispanic, Grade 9
+WH9M			99		N		Enrollment, White, non-Hispanic, Grade 9, Male
+WH9F			100		N		Enrollment, White, non-Hispanic, Grade 9, Female
+WH9			101		N		Enrollment, White, non-Hispanic, Grade 9
+G10			102		N		Enrollment, Grade 10
+AM10M			103		N		Enrollment, American Indian/Alaskan Native, Grade 10, Male
+AM10F			104		N		Enrollment, American Indian/Alaskan Native, Grade 10, Female
+AM10			105		N		Enrollment, American Indian/Alaskan Native, Grade 10
+AS10M			106		N		Enrollment, Asian/Pacific Islander, Grade 10, Male
+AS10F			107		N		Enrollment, Asian/Pacific Islander, Grade 10, Female
+AS10			108		N		Enrollment, Asian/Pacific Islander, Grade 10
+HI10M			109		N		Enrollment, Hispanic, Grade 10, Male
+HI10F			110		N		Enrollment, Hispanic, Grade 10, Female
+HI10			111		N		Enrollment, Hispanic, Grade 10
+BL10M			112		N		Enrollment, Black, non-Hispanic, Grade 10, Male
+BL10F			113		N		Enrollment, Black, non-Hispanic, Grade 10, Female
+BL10			114		N		Enrollment, Black, non-Hispanic, Grade 10
+WH10M			115		N		Enrollment, White, non-Hispanic, Grade 10, Male
+WH10F			116		N		Enrollment, White, non-Hispanic, Grade 10, Female
+WH10			117		N		Enrollment, White, non-Hispanic, Grade 10
+G11			118		N		Enrollment, Grade 11
+AM11M			119		N		Enrollment, American Indian/Alaskan Native, Grade 11, Male
+AM11F			120		N		Enrollment, American Indian/Alaskan Native, Grade 11, Female
+AM11			121		N		Enrollment, American Indian/Alaskan Native, Grade 11
+AS11M			122		N		Enrollment, Asian/Pacific Islander, Grade 11, Male
+AS11F			123		N		Enrollment, Asian/Pacific Islander, Grade 11, Female
+AS11			124		N		Enrollment, Asian/Pacific Islander, Grade 11
+HI11M			125		N		Enrollment, Hispanic, Grade 11, Male
+HI11F			126		N		Enrollment, Hispanic, Grade 11, Female
+HI11			127		N		Enrollment, Hispanic, Grade 11
+BL11M			128		N		Enrollment, Black, non-Hispanic, Grade 11, Male
+BL11F			129		N		Enrollment, Black, non-Hispanic, Grade 11, Female
+BL11			130		N		Enrollment, Black, non-Hispanic, Grade 11
+WH11M			131		N		Enrollment, White, non-Hispanic, Grade 11, Male
+WH11F			132		N		Enrollment, White, non-Hispanic, Grade 11, Female
+WH11			133		N		Enrollment, White, non-Hispanic, Grade 11
+G12			134		N		Enrollment, Grade 12
+AM12M			135		N		Enrollment, American Indian/Alaskan Native, Grade 12, Male
+AM12F			136		N		Enrollment, American Indian/Alaskan Native, Grade 12, Female
+AM12			137		N		Enrollment, American Indian/Alaskan Native, Grade 12
+AS12M			138		N		Enrollment, Asian/Pacific Islander, Grade 12, Male
+AS12F			139		N		Enrollment, Asian/Pacific Islander, Grade 12, Female
+AS12			140		N		Enrollment, Asian/Pacific Islander, Grade 12
+HI12M			141		N		Enrollment, Hispanic, Grade 12, Male
+HI12F			142		N		Enrollment, Hispanic, Grade 12, Female
+HI12			143		N		Enrollment, Hispanic, Grade 12
+BL12M			144		N		Enrollment, Black, non-Hispanic, Grade 12, Male
+BL12F			145		N		Enrollment, Black, non-Hispanic, Grade 12, Female
+BL12			146		N		Enrollment, Black, non-Hispanic, Grade 12
+WH12M			147		N		Enrollment, White, non-Hispanic, Grade 12, Male
+WH12F			148		N		Enrollment, White, non-Hispanic, Grade 12, Female
+WH12			149		N		Enrollment, White, non-Hispanic, Grade 12
+EBS912			150		N		Dropout Enrollment Base, Grades 9 through 12
+EBSAMM			151		N		Dropout Enrollment Base, Grades 9 through 12, American Indian/Alaskan Native, Male
+EBSAMF			152		N		Dropout Enrollment Base, Grades 9 through 12, American Indian/Alaskan Native, Female
+EBSAM			153		N		Dropout Enrollment Base, Grades 9 through 12, American Indian/Alaskan Native
+EBSASM			154		N		Dropout Enrollment Base, Grades 9 through 12, Asian/Pacific Islander, Male
+EBSASF			155		N		Dropout Enrollment Base, Grades 9 through 12, Asian/Pacific Islander, Female
+EBSAS			156		N		Dropout Enrollment Base, Grades 9 through 12, Asian/Pacific Islander
+EBSHIM			157		N		Dropout Enrollment Base, Grades 9 through 12, Hispanic, Male
+EBSHIF			158		N		Dropout Enrollment Base, Grades 9 through 12, Hispanic, Female
+EBSHI			159		N		Dropout Enrollment Base, Grades 9 through 12, Hispanic
+EBSBLM			160		N		Dropout Enrollment Base, Grades 9 through 12, Black, non-Hispanic, Male
+EBSBLF			161		N		Dropout Enrollment Base, Grades 9 through 12, Black, non-Hispanic, Female
+EBSBL			162		N		Dropout Enrollment Base, Grades 9 through 12, Black, non-Hispanic
+EBSWHM			163		N		Dropout Enrollment Base, Grades 9 through 12, White, non-Hispanic, Male
+EBSWHF			164		N		Dropout Enrollment Base, Grades 9 through 12, White, non-Hispanic, Female
+EBSWH			165		N		Dropout Enrollment Base, Grades 9 through 12, White, non-Hispanic
+EBSM			166		N		Dropout Enrollment Base, Grades 9 through 12, Male
+EBSF			167		N		Dropout Enrollment Base, Grades 9 through 12, Female
+DRP9			168		N		Dropout Rate, Grade 9
+DRP10			169		N		Dropout Rate, Grade 10
+DRP11			170		N		Dropout Rate, Grade 11
+DRP12			171		N		Dropout Rate, Grade 12
+DRP912			172		N		Dropout Rate, Grades 9 through 12
+DRPAMM			173		N		Dropout Rate, Grades 9 through 12, American Indian/Alaskan Native, Male
+DRPAMF			174		N		Dropout Rate, Grades 9 through 12, American Indian/Alaskan Native, Female
+DRPAM			175		N		Dropout Rate, Grades 9 through 12, American Indian/Alaskan Native
+DRPASM			176		N		Dropout Rate, Grades 9 through 12, Asian/Pacific Islander, Male
+DRPASF			177		N		Dropout Rate, Grades 9 through 12, Asian/Pacific Islander, Female
+DRPAS			178		N		Dropout Rate, Grades 9 through 12, Asian/Pacific Islander
+DRPHIM			179		N		Dropout Rate, Grades 9 through 12, Hispanic, Male
+DRPHIF			180		N		Dropout Rate, Grades 9 through 12, Hispanic, Female
+DRPHI			181		N		Dropout Rate, Grades 9 through 12, Hispanic
+DRPBLM			182		N		Dropout Rate, Grades 9 through 12, Black, non-Hispanic, Male
+DRPBLF			183		N		Dropout Rate, Grades 9 through 12, Black, non-Hispanic, Female
+DRPBL			184		N		Dropout Rate, Grades 9 through 12, Black, non-Hispanic
+DRPWHM			185		N		Dropout Rate, Grades 9 through 12, White, non-Hispanic, Male
+DRPWHF			186		N		Dropout Rate, Grades 9 through 12, White, non-Hispanic, Female
+DRPWH			187		N		Dropout Rate, Grades 9 through 12, White, non-Hispanic
+DRPM			188		N		Dropout Rate, Grades 9 through 12, Male
+DRPF			189		N		Dropout Rate, Grades 9 through 12, Female
+TOTDPL			190		N		Total Diploma Count
+AMDPL			191		N		Diploma Count, American Indian/Alaskan Native
+ASDPL			192		N		Diploma Count, Asian/Pacific Islander
+HIDPL			193		N		Diploma Count, Hispanic
+BLDPL			194		N		Diploma Count, Black, non-Hispanic
+WHDPL			195		N		Diploma Count, White, non-Hispanic
+AFGEB			196		N		Total AFGR Enrollment Base
+AFGEBAM			197		N		AFGR Enrollment Base, American Indian/Alaskan Native
+AFGEBAS			198		N		AFGR Enrollment Base, Asian/Pacific Islander
+AFGEBHI			199		N		AFGR Enrollment Base, Hispanic
+AFGEBBL			200		N		AFGR Enrollment Base, Black, non-Hispanic
+AFGEBWH			201		N		AFGR Enrollment Base, White, non-Hispanic
+AFGR			202		N		Total Average Freshman Graduation Rate (AFGR)
+AFGRAM			203		N		AFGR, American Indian/Alaskan Native
+AFGRAS			204		N		AFGR, Asian/Pacific Islander
+AFGRHI			205		N		AFGR, Hispanic
+AFGRBL			206		N		AFGR, Black, non-Hispanic
+AFGRWH			207		N		AFGR, White, non-Hispanic
+TOTOHC			208		N		Total Other High School Completion Certificate (OHC) Recipients
+AMOHC			209		N		OHC Recipients, American Indian/Alaskan Native
+ASOHC			210		N		OHC Recipients, Asian/Pacific Islander
+HIOHC			211		N		OHC Recipients, Hispanic
+BLOHC			212		N		OHC Recipients, Black, non-Hispanic
+WHOHC			213		N		OHC Recipients, White, non-Hispanic
+EQUIV			214		N		General Equivalency Diploma (GED) Recipients, Ages 16-19
+AMEQUIV			215		N		American Indian/Alaskan Native GED Recipients, Ages 16-19
+ASEQUIV			216		N		Asian/Pacific Islander GED Recipients, Ages 16-19
+HIEQUIV			217		N		Hispanic GED Recipients, Ages 16-19
+BLEQUIV			218		N		Black, non-Hispanic GED Recipients, Ages 16-19
+WHEQUIV			219		N		White, non-Hispanic GED Recipients, Ages 16-19
