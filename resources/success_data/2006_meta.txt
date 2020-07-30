@@ -1,19 +1,4 @@
-NCES Common Core of Data State Dropout and Completion Data File: School Year 2005-06
-
-FILE NAME = sdr051b.dat, 2005-06 
-
-NVAR = 183
-
-NOBS = 59
-
-LRECL = 1,556
-
-
-The file contains data for school year 2005–06 sorted by the Federal Information Processing Standards (FIPS) state code. “AN” and “N” indicate alphanumeric and numeric data, respectively. An asterisk (*) in the field length column indicates that the field has one explicit decimal place.
-
-Variable 	Start  	  End	        Field   Data	Description
-Name	 	Position  Position	Length	Type    
-
+Variable Name	Start Position   End Position	Field Length	  Data Type    	Description
 SURVYEAR 	0001	  0004		4	N	School year. 
 FIPST		0005	  0006		2	AN	Federal Information Processing Standards (FIPS) state code.
 STABR		0007	  0008		2	AN	Two-letter U.S. Postal Service abbreviation for the state.
@@ -24,12 +9,12 @@ STNAME		0129	  0153		25	AN	Name of the mailing address state.
 ZIP		0154	  0158		5	AN	Five-digit U.S. Postal Service ZIP code for the mailing address.
 ZIP4 		0159	  0162		4	AN	Four-digit ZIP+4 code, if assigned; if none, field is blank.
 PHONE 		0163	  0172		10	AN	Telephone number of education agency. NOTE: Position #163–165 is the area code, and position #166–172 							is the exchange and number.
-AFGR		0173	  0180		8*	N	Averaged Freshman Graduation Rate (AFGR).
-AMAFGR		0181	  0188		8*	N	AFGR (American Indian/Alaska Native).
-ASAFGR		0189	  0196		8*	N	AFGR (Asian/Pacific Islander).
-HIAFGR		0197	  0204		8*	N	AFGR (Hispanic).
-BLAFGR		0205	  0212		8*	N	AFGR (Black, non-Hispanic).
-WHAFGR		0213	  0220		8*	N	AFGR (White, non-Hispanic).
+AFGR		0173	  0180		8	N	Averaged Freshman Graduation Rate (AFGR).
+AMAFGR		0181	  0188		8	N	AFGR (American Indian/Alaska Native).
+ASAFGR		0189	  0196		8	N	AFGR (Asian/Pacific Islander).
+HIAFGR		0197	  0204		8	N	AFGR (Hispanic).
+BLAFGR		0205	  0212		8	N	AFGR (Black, non-Hispanic).
+WHAFGR		0213	  0220		8	N	AFGR (White, non-Hispanic).
 REGDIP		0221	  0228		8	N	Regular diploma count.
 AMREGDIP	0229	  0236		8	N	Regular diploma count (American Indian/Alaskan Native).
 ASREGDIP	0237	  0244		8	N	Regular diploma count (Asian/Pacific Islander).
@@ -107,19 +92,19 @@ BLD12U		0805	  0812		8	N	Count of dropouts (12th-grade Black, non-Hispanic-Gende
 WHD12M		0813	  0820		8	N	Count of dropouts (12th-grade White, non-Hispanic-Male) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
 WHD12F		0821	  0828		8	N	Count of dropouts (12th-grade White, non-Hispanic-Female) aggregated from the local education agency 								universe file (see appendix D for computation procedures).
 WHD12U		0829	  0836		8	N	Count of dropouts (12th-grade White, non-Hispanic-Gender Unknown) aggregated from the local 									education agency universe file (see appendix D for computation procedures).
-DRP912		0837	  0844		8*	N	Dropout Rate (Grades 9–12).
-DRP9		0845	  0860		8*	N	Dropout Rate (Grade 9).
-DRP10		0853	  0860		8*	N 	Dropout Rate (Grade 10).
-DRP11		0861	  0868		8*	N	Dropout Rate (Grade 11).
-DRP12		0869	  0876		8*	N	Dropout Rate (Grade 12).
-DRPAM		0877	  0884		8*	N	Dropout Rate (American Indian/Alaska Native, Grades 9–12).
-DRPAS		0885	  0892		8*	N	Dropout Rate (Asian/Pacific Islander, Grades 9–12).
-DRPHI		0893	  0900		8*	N	Dropout Rate (Hispanic, Grades 9–12).
-DRPBL		0901	  0908		8*	N	Dropout Rate (Black, non-Hispanic, Grades 9–12).
-DRPWH		0909	  0916		8*	N	Dropout Rate (White, non-Hispanic, Grades 9–12).
-DRPM		0917	  0924		8*	N	Dropout Rate (Male, Grades 9–12).
-DRPF		0925	  0932		8*	N	Dropout Rate (Female, Grades 9 –12).
-DRPU		0933	  0940		8*	N	Dropout Rate (Gender Unknown, Grades 9–12).
+DRP912		0837	  0844		8	N	Dropout Rate (Grades 9–12).
+DRP9		0845	  0860		8	N	Dropout Rate (Grade 9).
+DRP10		0853	  0860		8	N 	Dropout Rate (Grade 10).
+DRP11		0861	  0868		8	N	Dropout Rate (Grade 11).
+DRP12		0869	  0876		8	N	Dropout Rate (Grade 12).
+DRPAM		0877	  0884		8	N	Dropout Rate (American Indian/Alaska Native, Grades 9–12).
+DRPAS		0885	  0892		8	N	Dropout Rate (Asian/Pacific Islander, Grades 9–12).
+DRPHI		0893	  0900		8	N	Dropout Rate (Hispanic, Grades 9–12).
+DRPBL		0901	  0908		8	N	Dropout Rate (Black, non-Hispanic, Grades 9–12).
+DRPWH		0909	  0916		8	N	Dropout Rate (White, non-Hispanic, Grades 9–12).
+DRPM		0917	  0924		8	N	Dropout Rate (Male, Grades 9–12).
+DRPF		0925	  0932		8	N	Dropout Rate (Female, Grades 9 –12).
+DRPU		0933	  0940		8	N	Dropout Rate (Gender Unknown, Grades 9–12).
 EBS912		0941	  0948		8	N	Enrollment Base (Grades 9–12) aggregated from the school universe file (see appendix D for 									computation procedures).
 EBS9		0949	  0956		8	N	Enrollment Base (Total 9th Grade) aggregated from the school universe file (see appendix D for 									computation procedures).
 EBSAM9M		0957	  0964		8	N	Enrollment Base (9th-grade American Indian/Alaska Native-Male) aggregated from the school universe 								file (see appendix D for computation procedures).
